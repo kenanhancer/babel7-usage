@@ -3,11 +3,12 @@ Babel 7.x usage
 
 I debug Node.js app with Babel 7.x tools. I have used babel, @babel/node, @babel/register (hook)
 
-You can find different options to debug in launch.json file.
+You can find different options to debug in ##launch.json## file.
 
 if you want to see Babel 6.x usage, check this repository (https://github.com/kenanhancer/babel6-usage.git)
 
 ## package.json
+```json
 {
   "name": "babel7-usage",
   "version": "1.0.0",
@@ -36,8 +37,10 @@ if you want to see Babel 6.x usage, check this repository (https://github.com/ke
     "react": "^16.13.1"
   }
 }
+```
 
 ## tasks.json
+```json
 {
     "version": "2.0.0",
     "tasks": [
@@ -50,8 +53,10 @@ if you want to see Babel 6.x usage, check this repository (https://github.com/ke
         }
     ]
 }
+```
 
 ## launch.json
+```json
 {
     "version": "0.2.0",
     "configurations": [
@@ -115,3 +120,4 @@ if you want to see Babel 6.x usage, check this repository (https://github.com/ke
         }
     ]
 }
+```
