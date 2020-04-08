@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "@babel/preset-react",
+          {
+            "development": true
+          }
+        ]
+      ],
+      "sourceMaps": true,
+      "retainLines": true
+    }
+  }
+}
